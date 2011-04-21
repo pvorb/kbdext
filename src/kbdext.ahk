@@ -1,10 +1,6 @@
 SetWorkingDir, %A_ScriptDir%
 #include %A_ScriptDir%\
 
-
-; Revision Information (don't moun)
-;#include *i source\_subwcrev1.generated.ahk
-
 ; die Compose-Definitionen
 #include *i source\compose.generated.ahk
 #include *i source\compose-tainted.generated.ahk
@@ -37,7 +33,7 @@ SetWorkingDir, %A_ScriptDir%
 #include    source\tools.ahk
 
 ; individuelle Einstellungen
-#include *i %A_AppData%\Neo2\custom.ahk
+#include *i %A_AppData%\kbdext\custom.ahk
 
 #include    source\tray.ahk
 #include    source\keyhooks.ahk
